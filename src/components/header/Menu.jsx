@@ -21,7 +21,7 @@ function Example() {
           id="NavBar-nav"
           sticky="top"
         >
-          <Container className="d.flex justify-content-left">
+          <Container className="d.flex justify-content-start">
             <Navbar.Brand href="#"></Navbar.Brand>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
