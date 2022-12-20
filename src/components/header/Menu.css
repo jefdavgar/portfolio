@@ -3,6 +3,9 @@ body{
     margin: 0px;
     box-sizing: border-box;
 }
+.btn-close{
+    padding: 0px !important;
+}
 a{
     font-family: 'Poppins';
     font-style: normal;
@@ -15,6 +18,12 @@ a{
 a:hover{
     color: #8649C4 !important;
 }
-.offcanvas-body {
+.offcanvas_2 {
     background-color: #1F1F1F !important;
+}
+.offcanvas_1 {
+    background-color: transparent !important;
+}
+.offcanvas-backdrop.show {
+    opacity:0 !important;
 }

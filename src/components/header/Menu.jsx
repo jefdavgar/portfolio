@@ -3,17 +3,25 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-
+import { CloseButton } from "react-bootstrap";
 
 function Example() {
+  const [style, setStyle] = useState("offcanvas_1")
+  const changeStyle = () => {
+    console.log("you just clicked");
+  
+    setStyle("offcanvas_2");
+  };
+  const changeStyleTwo = (e) => {
+    console.log("you just clicked");
+    setStyle("offcanvas_1");
+  };
+
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   return (
     <>
-      {["md"].map((expand) => (
+      {["xl"].map((expand) => (
         <Navbar
           key={expand}
           expand={expand}
@@ -26,6 +34,7 @@ function Example() {
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
               className="justify-content-start"
+              onClick={changeStyle}
             >
 
             </Navbar.Toggle>
@@ -35,9 +44,11 @@ function Example() {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="start"
             >
-              <Offcanvas.Body show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton>
+              <Offcanvas.Body show={show} onHide={handleClose} className={style}>
+                <Offcanvas.Header 
+              >
                   <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  <Offcanvas.Header className="btn-close" closeButton onClick={changeStyleTwo}></Offcanvas.Header>
                 </Offcanvas.Header>
                 <Nav>
                     <Nav.Link href="#Inicio">HOME</Nav.Link>
