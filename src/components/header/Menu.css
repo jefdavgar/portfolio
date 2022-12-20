@@ -1,0 +1,20 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 20px;
+    color: #F8F7F9 !important;
+}
+a:hover{
+    color: #8649C4 !important;
+}
+.offcanvas-body {
+    background-color: #1F1F1F !important;
+}

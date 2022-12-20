@@ -21,16 +21,19 @@ function Example() {
           id="NavBar-nav"
           sticky="top"
         >
-          <Container>
+          <Container className="d.flex justify-content-left">
             <Navbar.Brand href="#"></Navbar.Brand>
             <Navbar.Toggle
               aria-controls={`offcanvasNavbar-expand-${expand}`}
-            ></Navbar.Toggle>
+              className="justify-content-start"
+            >
+
+            </Navbar.Toggle>
             <Navbar.Offcanvas
               className="offcanvas-navbar"
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-              placement="end"
+              placement="start"
             >
               <Offcanvas.Body show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>

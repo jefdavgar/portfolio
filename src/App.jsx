@@ -1,6 +1,6 @@
 import './App.css'
 import Menu from "./components/header/Menu"
-import "./components/header/Menu"
+import "./components/header/Menu.css"
 function App() {
   return (
     <div>
