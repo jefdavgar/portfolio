@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+
 const Section_1 = () => {
   return (
     <div className="component_1">
@@ -33,11 +34,12 @@ const Section_1 = () => {
                 </Row>
             </Col>
           <Col xl={3} md={5} sm={12}>
-            logo
+          <div className="elipse">
+            <img src="./" alt="" />
+          </div>
           </Col>
         </Row>
       </Container>
-      <div className="elipse"></div>
     </div>
   );
 };

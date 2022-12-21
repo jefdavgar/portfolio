@@ -4,15 +4,16 @@ body{
     box-sizing: border-box;
 }
 .elipse{
-    position: absolute;
-    top: 100px;
-    width: 700px;
-    height: 897px;
-    left: 599px;
+    position: relative;
+    top: 80px;
+    width: 500px;
+    height: 500px;
+    right: 250px;
     background-color: #49157C;
     filter: blur(128px);
     z-index: 0;
 }
+
 .component_1{
     margin-top: 65px;
 }
@@ -20,6 +21,7 @@ body{
     gap: 15px !important;
 }
 .title_name{
+    position: relative;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
