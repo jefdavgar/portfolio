@@ -56,3 +56,69 @@ body{
     justify-content: center;
     align-items: center;
 }
+.imagen{
+    position: absolute;
+    top: 250px;
+    right: 160px;
+    background-image: url("./img/Rectangle.gif");
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    width: 500px;
+    height: 400px;
+    z-index: 2;
+    size: 400px;
+}
+@media screen and (max-width:1200px) {
+    .imagen{
+        right: 100px;
+        top: 270px;
+    }
+}
+@media screen and (max-width:992px) {
+    .imagen{
+        right: 0px;
+        top: 400px;
+    }
+}
+@media screen and (max-width:768px) {
+    .imagen{
+        right: 100px;
+        top: 700px;
+    }
+}
+@media screen and (max-width:650px) {
+    .imagen{
+        right: 50px;
+        top: 700px;
+    }
+}
+@media screen and (max-width:576px) {
+    .imagen{
+        right: 0px;
+        top: 650px;
+    }
+}
+@media screen and (max-width:400px) {
+    .imagen{
+        left: 10px;
+        top: 650px;
+    }
+}
+@media screen and (max-width:304px) {
+    .imagen{
+        left: 10px;
+        top: 700px;
+    }
+}
+@media screen and (max-width:250px) {
+    .imagen{
+        left: 30px;
+        top: 750px;
+    }
+}
+@media screen and (max-width:150px) {
+    .imagen{
+        left: 0px;
+        top: 800px;
+    }
+}

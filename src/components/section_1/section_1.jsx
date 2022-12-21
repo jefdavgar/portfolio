@@ -18,7 +18,7 @@ const Section_1 = () => {
                             FULL STACK DEVELOPER
                         </span>
                     </Col>
-                    <Col xl={5}>
+                    <Col xl={5} lg={5}  md={5}>
                         <p id="description">
                             Apasionado a la programación y a las nuevas tecnólogias
                             de desarrollo
@@ -34,8 +34,8 @@ const Section_1 = () => {
                 </Row>
             </Col>
           <Col xl={3} md={5} sm={12}>
+          <div className="imagen"></div>
           <div className="elipse">
-            <img src="./" alt="" />
           </div>
           </Col>
         </Row>
