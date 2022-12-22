@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    /* SOBRE MI */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 66px;
+    /* identical to box height, or 106% */
+    color: #F8F7F9 !important;
+}
+.about_me{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F8F7F9;
+}
+.img_animation{
+    background-image: url("./assets/dev.gif");
+    /* DEV 1 */
+    width: 462px;
+    height: 476px;
+    border-radius: 100px;
+    background-size: 452px 466px;
+}
+.component_2{
+    margin-top: 120px;
+}
+
+@media screen and (max-width:478px)  {
+    .img_animation{
+        height: 456px;
+        background-size: 432px 446px;
+    }
+}
+@media screen and (max-width:458px)  {
+    .img_animation{
+        height: 436px;
+        background-size: 412px 426px;
+    }
+}
+@media screen and (max-width:432px)  {
+    .img_animation{
+        height: 416px;
+        background-size: 392px 406px;
+    }
+}
+@media screen and (max-width:406px)  {
+    .img_animation{
+        height: 386px;
+        background-size: 362px 376px;
+    }
+}
+@media screen and (max-width:375px)  {
+    .img_animation{
+        width: 355px;
+        height: 366px;
+        background-size: 342px 356px;
+    }
+    .component_2{
+        margin-top: 67px;
+    }
+}
+@media screen and (max-width:360px)  {
+    .img_animation{
+        width: 326px;
+        height: 316px;
+        background-size:322px 336px;
+    }
+}
+@media screen and (max-width:340px)  {
+    .img_animation{
+        width: 296px;
+        height: 306px;
+        background-size:282px 296px;
+    }
+}
+@media screen and (max-width:300px)  {
+    .img_animation{
+        width: 266px;
+        height: 276px;
+        background-size:252px 266px;
+    }
+}
+@media screen and (max-width:217px)  {
+    .img_animation{
+        width: 186px;
+        height: 206px;
+        background-size:182px 196px;
+    }
+    .component_2{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:161px)  {
+    .img_animation{
+        width: 126px;
+        height: 146px;
+        background-size:122px 136px;
+    }
+}
+@media screen and (max-width:117px)  {
+    .img_animation{
+        width: 87px;
+        height: 106px;
+        background-size:82px 96px;
+    }
+}
+@media screen and (max-width:77px)  {
+    .img_animation{
+        width: 57px;
+        height: 66px;
+        background-size:42px 56px;
+    }
+}

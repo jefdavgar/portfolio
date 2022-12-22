@@ -34,7 +34,9 @@ const Section_1 = () => {
                 </Row>
             </Col>
           <Col xl={3} md={5} sm={12}>
-          <div className="imagen"></div>
+          <div className="d-flex justify-content-center">
+            <div className="imagen"></div>
+          </div>
           <div className="elipse">
           </div>
           </Col>
