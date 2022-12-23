@@ -60,7 +60,7 @@ body{
     position: absolute;
     top: 250px;
     right: 160px;
-    background-image: url("./img/Rectangle.gif");
+    background-image: url("../../assets/Rectangle.gif");
     background-repeat: no-repeat;
     background-size: 500px 400px;
     width: 500px;

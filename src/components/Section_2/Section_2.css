@@ -24,7 +24,7 @@ body{
     color: #F8F7F9;
 }
 .img_animation{
-    background-image: url("./assets/dev.gif");
+    background-image: url("../../assets/dev.gif");
     /* DEV 1 */
     width: 462px;
     height: 476px;
