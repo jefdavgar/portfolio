@@ -3,7 +3,6 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import { CloseButton } from "react-bootstrap";
 
 function Example() {
   const [style, setStyle] = useState("offcanvas_1")
